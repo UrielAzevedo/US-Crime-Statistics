@@ -58,7 +58,7 @@ export const chartoOption = {
 const CanvasMurderStatistics = () => {
 
     return(
-        <Line data={chartData} options={chartoOption} id={Styles.canvasContainer}/>
+        <Line data={chartData} options={chartoOption} id={Styles.CanvasContainer}/>
     )
 }
 

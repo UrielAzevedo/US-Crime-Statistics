@@ -17,7 +17,7 @@ const ChartSelector = (props) => {
         case 'CanvasPropertyCrimeStatistics':
             return( <div className={Styles.DisplayContainer}> <Charts.CanvasPropertyCrimeStatistics/> </div> )
         case 'CanvasRoberryStatistics': 
-            return( <div className={Styles.displayContainer}> <Charts.CanvasRoberryStatistics/> </div> )
+            return( <div className={Styles.DisplayContainer}> <Charts.CanvasRoberryStatistics/> </div> )
         case 'CanvasVehicleTheftStatistics':
             return( <div className={Styles.DisplayContainer}> <Charts.CanvasVehicleTheftStatistics/> </div> )
         case 'CanvasViolentCrimeStatistics':

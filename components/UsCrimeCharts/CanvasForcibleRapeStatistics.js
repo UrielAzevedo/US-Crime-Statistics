@@ -58,7 +58,7 @@ export const chartoOption = {
 const CanvasForcibelRapeStatistics = () => {
 
     return(
-        <Line data={chartData} options={chartoOption} id={Styles.canvasContainer}/>
+        <Line data={chartData} options={chartoOption} id={Styles.CanvasContainer}/>
     )
 }
 

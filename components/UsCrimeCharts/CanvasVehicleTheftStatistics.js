@@ -57,7 +57,7 @@ export const chartoOption = {
 const CanvasVehicleTheftStatistics = () => {
 
     return(
-        <Line data={chartData} options={chartoOption} id={Styles.canvasContainer}/>
+        <Line data={chartData} options={chartoOption} id={Styles.CanvasContainer}/>
     )
 }
 
