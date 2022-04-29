@@ -8,23 +8,22 @@
     align-items: center;
     justify-content: flex-start;
     margin-top: 4%;
-    // overflow: auto;
 }
 
 .LinkContainer{
     margin: 20px;
     font-size: 1em;
-}
 
-.LinkContainer::after{
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: #000;
-    transition: width .3s;
-}
+    &::after{
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #000;
+        transition: width .3s;
+    }
 
-.LinkContainer:hover::after{
-    width: 100%;
+    &:hover::after{
+        width: 100%;
+    }
 }
